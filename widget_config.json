@@ -73,7 +73,8 @@
         },
         "customize_rc_buttons_config": {
           "is_enable": true,
-          "mapping_config_display_order": 3
+          "mapping_config_display_order": 3,
+          "button_value_step_length": 5
         }
       }
     ]
@@ -100,7 +101,8 @@
         "widget_name": "Brightness",
         "customize_rc_buttons_config": {
           "is_enable": true,
-          "mapping_config_display_order": 5
+          "mapping_config_display_order": 5,
+          "button_value_step_length": 5
         }
       },
       {
@@ -112,173 +114,34 @@
       {
         "widget_index": 7,
         "widget_type": "switch",
-        "widget_name": "Slave Mode"
+        "widget_name": "Slave Mode",
+        "customize_rc_buttons_config": {
+          "is_enable": true,
+          "mapping_config_display_order": 7
+        }
       },
       {
         "widget_index": 8,
         "widget_type": "list",
-        "widget_name": "Please Select Payload Index",
+        "widget_name": "List 8",
         "list_item": [
           {
-            "item_name": "payload_index1"
+            "item_name": "Item 1"
           },
           {
-            "item_name": "payload_index2"
+            "item_name": "Item 2"
           },
           {
-            "item_name": "payload_index3"
+            "item_name": "Item 3"
+          },
+          {
+            "item_name": "Item 4"
           }
-        ]
-      },
-      {
-        "widget_index": 9,
-        "widget_type": "list",
-        "widget_name": "Please Select Sample",
-        "list_item": [
-          {
-            "item_name": "01_test_fc_subscription"
-          },
-          {
-            "item_name": "02_test_waypoint_v2"
-          },
-          {
-            "item_name": "03_test_waypoint_v3"
-          },
-          {
-            "item_name": "04_test_flight_ctrl_takeoff_landing"
-          },
-          {
-            "item_name": "05_test_flight_ctrl_position_ctrl"
-          },
-          {
-            "item_name": "06_test_flight_ctrl_force_landing"
-          },
-          {
-            "item_name": "07_test_flight_ctrl_velocity_ctrl"
-          },
-          {
-            "item_name": "08_test_flight_ctrl_arrest_flying"
-          },
-          {
-            "item_name": "09_test_flight_ctrl_set_get_param"
-          },
-          {
-            "item_name": "10_test_hms_info"
-          },
-          {
-            "item_name": "11_gimbal_manager_free_mode"
-          },
-          {
-            "item_name": "12_gimbal_manager_yaw_follow_mode"
-          },
-          {
-            "item_name": "13_test_liveview"
-          },
-          {
-            "item_name": "14_test_perception"
-          },
-          {
-            "item_name": "15_test_set_payload_alias"
-          },
-          {
-            "item_name": "16_test_cammgr-set/get_shutter_speed"
-          },
-          {
-            "item_name": "17_test_cammgr-set/get_aperture"
-          },
-          {
-            "item_name": "18_test_cammgr-set/get_ev"
-          },
-          {
-            "item_name": "19_test_cammgr-set/get_iso"
-          },
-          {
-            "item_name": "20_test_cammgr-focus_point"
-          },
-          {
-            "item_name": "21_test_cammgr-tap_zoom"
-          },
-          {
-            "item_name": "22_test_cammgr-optical_zoom"
-          },
-          {
-            "item_name": "23_test_cammgr-single_photo"
-          },
-          {
-            "item_name": "24_test_cammgr-burst_photo"
-          },
-          {
-            "item_name": "25_test_cammgr-interval_photo"
-          },
-          {
-            "item_name": "26_test_cammgr-recorder_video"
-          },
-          {
-            "item_name": "27_test_cammgr-media_download"
-          },
-          {
-            "item_name": "28_test_cammgr-thermometry"
-          }
-        ]
-      },
-      {
-        "widget_index": 10,
-        "widget_type": "button",
-        "widget_name": "Run"
-      },
-      {
-        "widget_index": 11,
-        "widget_type": "list",
-        "widget_name": "Please Select Errcode",
-        "list_item": [
-          {
-            "item_name": "0x1E020000"
-          },
-          {
-            "item_name": "0x1E020001"
-          },
-          {
-            "item_name": "0x1E020002"
-          },
-          {
-            "item_name": "0x1E020003"
-          },
-          {
-            "item_name": "0x1E020004"
-          }
-        ]
-      },
-      {
-        "widget_index": 12,
-        "widget_type": "list",
-        "widget_name": "Please Select ErrLevel",
-        "list_item": [
-          {
-            "item_name": "Error level0"
-          },
-          {
-            "item_name": "Error level1"
-          },
-          {
-            "item_name": "Error level2"
-          },
-          {
-            "item_name": "Error level3"
-          },
-          {
-            "item_name": "Error level4"
-          }
-        ]
-      },
-      {
-        "widget_index": 13,
-        "widget_type": "button",
-        "widget_name": "Inject"
-      },
-      {
-        "widget_index": 14,
-        "widget_type": "button",
-        "widget_name": "Eliminate"
+        ],
+        "customize_rc_buttons_config": {
+          "is_enable": true,
+          "mapping_config_display_order": 8
+        }
       }
     ]
   }
