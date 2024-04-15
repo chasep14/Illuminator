@@ -31,6 +31,9 @@
 #include "dji_platform.h"
 #include "utils/util_misc.h"
 #include "payload_collaboration/test_payload_collaboration.h"
+#include "dji_aircraft_info.h"
+#include "dji_gimbal_manager.h"
+#include <widget_interaction_test/test_widget_interaction.h>
 
 /* Private constants ---------------------------------------------------------*/
 #define PAYLOAD_GIMBAL_EMU_TASK_STACK_SIZE  (2048)
