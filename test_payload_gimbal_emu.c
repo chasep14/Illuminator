@@ -30,13 +30,14 @@
 #include "dji_logger.h"
 #include "dji_platform.h"
 #include "utils/util_misc.h"
+#include "test_payload_collaboration.h"
 
 /* Private constants ---------------------------------------------------------*/
 #define PAYLOAD_GIMBAL_EMU_TASK_STACK_SIZE  (2048)
 #define PAYLOAD_GIMBAL_TASK_FREQ            1000
 #define PAYLOAD_GIMBAL_CALIBRATION_TIME_MS  2000
 #define PAYLOAD_GIMBAL_MIN_ACTION_TIME      5
-
+#define DJI_TEST_PAYLOAD_COLLABORATION_PAYLOADS_IN_DRONE_MAX_COUNT (3)
 /* Private types -------------------------------------------------------------*/
 typedef enum {
     TEST_GIMBAL_CONTROL_TYPE_UNKNOWN = 0,
